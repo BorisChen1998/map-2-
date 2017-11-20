@@ -7,9 +7,6 @@
 #include "exceptions.hpp"
 #include <cstdio>
 using namespace std;
-int mmax(int x, int y){
-    return x>y ? x:y;
-}
 namespace sjtu {
 
 template<class Key, class T, class Compare = std::less<Key>>
